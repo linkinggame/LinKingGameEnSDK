@@ -13,7 +13,7 @@
 + (UIImage *)le_ImageNamed:(NSString *)name{
     
     // bundle
-   NSBundle *bundle = [NSBundle le_loadBundleClass:[LESDKManager class] bundleName:@"LinKingOASDKBundle"];
+   NSBundle *bundle = [NSBundle le_loadBundleClass:[LESDKManager class] bundleName:@"LinKingGameEnSDKBundle"];
     
     name = [name stringByAppendingFormat:@"@2x"];
     // path
@@ -34,7 +34,7 @@
 + (UIImage *)le_ImageNamed:(NSString *)name withCls:(Class)cls{
     
     // bundle
-   NSBundle *bundle = [NSBundle le_loadBundleClass:cls bundleName:@"LinKingOASDKBundle"];
+   NSBundle *bundle = [NSBundle le_loadBundleClass:cls bundleName:@"LinKingGameEnSDKBundle"];
     
     name = [name stringByAppendingFormat:@"@2x"];
     // path

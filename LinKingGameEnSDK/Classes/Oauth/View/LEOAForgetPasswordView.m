@@ -18,7 +18,7 @@
 
 @implementation LEOAForgetPasswordView
 + (instancetype)instanceOAForgetPasswordView{
-    NSBundle *bundle = [NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"LinKingOASDKBundle" withExtension:@"bundle"]];
+    NSBundle *bundle = [NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"LinKingGameEnSDKBundle" withExtension:@"bundle"]];
     LEOAForgetPasswordView *view = [[bundle loadNibNamed:@"LEOAForgetPasswordView" owner:nil options:nil] firstObject];
    view.layer.cornerRadius = 15;
    view.clipsToBounds = YES;

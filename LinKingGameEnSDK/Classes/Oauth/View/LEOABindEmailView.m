@@ -20,7 +20,7 @@
 
 
 + (instancetype)instanceOAEmailBindView{
-    NSBundle *bundle = [NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"LinKingOASDKBundle" withExtension:@"bundle"]];
+    NSBundle *bundle = [NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"LinKingGameEnSDKBundle" withExtension:@"bundle"]];
     LEOABindEmailView *view = [[bundle loadNibNamed:@"LEOABindEmailView" owner:nil options:nil] firstObject];
     view.layer.cornerRadius = 15;
     view.clipsToBounds = YES;

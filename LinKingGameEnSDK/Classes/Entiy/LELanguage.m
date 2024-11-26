@@ -36,7 +36,7 @@ static LELanguage *_instance = nil;
     } else {
         _preferredLanguage = @"en";
     }
-    self.languageBundle = [NSBundle bundleWithPath:[[NSBundle le_loadBundleClass:[LELanguage class] bundleName:@"LinKingOASDKBundle"] pathForResource:_preferredLanguage ofType:@"lproj"]];
+    self.languageBundle = [NSBundle bundleWithPath:[[NSBundle le_loadBundleClass:[LELanguage class] bundleName:@"LinKingGameEnSDKBundle"] pathForResource:_preferredLanguage ofType:@"lproj"]];
 }
 
 @end

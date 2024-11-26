@@ -18,7 +18,7 @@
 @implementation LEOALoginView
 
 + (instancetype)instanceOALoginView{
-    NSBundle *bundle = [NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"LinKingOASDKBundle" withExtension:@"bundle"]];
+    NSBundle *bundle = [NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"LinKingGameEnSDKBundle" withExtension:@"bundle"]];
     LEOALoginView *view = [[bundle loadNibNamed:@"LEOALoginView" owner:nil options:nil] firstObject];
    view.layer.cornerRadius = 15;
    view.clipsToBounds = YES;

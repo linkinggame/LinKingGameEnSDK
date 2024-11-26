@@ -34,7 +34,7 @@
 + (instancetype)instanceMatrixViewWithViewController:(UIViewController *)viewController{
     
     // NSBundle *bundle  = [NSBundle bundleForClass:[self class]];
-    NSBundle *bundle = [NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"LinKingOASDKBundle" withExtension:@"bundle"]];
+    NSBundle *bundle = [NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"LinKingGameEnSDKBundle" withExtension:@"bundle"]];
     LKLogInfo(@"bundle----->%@",bundle);
     LEMatrixView *view = [bundle loadNibNamed:@"LEMatrixView" owner:self options:nil].firstObject;
     view.layer.cornerRadius = 10;

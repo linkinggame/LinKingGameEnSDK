@@ -19,7 +19,7 @@
 @implementation LEOAEmailRegisterView
 
 + (instancetype)instanceOAEmailRegisterView{
-    NSBundle *bundle = [NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"LinKingOASDKBundle" withExtension:@"bundle"]];
+    NSBundle *bundle = [NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"LinKingGameEnSDKBundle" withExtension:@"bundle"]];
     LEOAEmailRegisterView *view = [[bundle loadNibNamed:@"LEOAEmailRegisterView" owner:nil options:nil] firstObject];
     view.layer.cornerRadius = 15;
     view.clipsToBounds = YES;
