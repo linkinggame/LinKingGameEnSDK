@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'LinKingGameEnSDK_Example' do
+  pod 'LinKingGameEnSDK', :path => '../'
+
+  target 'LinKingGameEnSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
